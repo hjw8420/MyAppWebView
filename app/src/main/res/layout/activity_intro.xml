@@ -18,4 +18,14 @@
         android:layout_height="wrap_content"
         android:text="이미지 뷰 전환"
         android:id="@+id/btImageViewConvert"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리스트이미지 뷰"
+        android:id="@+id/btListView"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="그리드이미지 뷰"
+        android:id="@+id/btGridView"/>
 </LinearLayout>
