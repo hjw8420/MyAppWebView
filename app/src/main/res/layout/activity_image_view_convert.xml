@@ -15,6 +15,7 @@
         android:textSize="22sp"
         android:textStyle="bold"
         android:id="@+id/textView"/>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="300dp"
@@ -31,13 +32,11 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/imageView"
             android:id="@+id/btPrevImage"
             android:text="이전이미지"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/imageView"
             android:id="@+id/btNextImage"
             android:text="다음이미지"/>
 
